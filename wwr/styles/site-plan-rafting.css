@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #157cd5ff;
+    --secondary-color: #b6d6ccff;
+    --accent1-color: #6f5e53ff;
+    --accent2-color: #01161eff;
+    --accent3-color: #e7a977ff;
+
+    --heading-font: 'Light 300', Roboto;
+    --paragraph-font: 'Regular  400', Roboto;
+    
+}
