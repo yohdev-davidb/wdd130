@@ -37,6 +37,11 @@ aside {
     border-color: #eee;
     color: #3c00ff;
     text-align: center;
+    position: relative; 
+}
+
+aside h2 {
+    position: absolute; 
 }
 
 aside img {
@@ -47,10 +52,16 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right; 
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+
+.box {
+    
 }
