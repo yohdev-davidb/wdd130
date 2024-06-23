@@ -17,9 +17,11 @@ body {
     --paragraph-font: 'Regular  400', Roboto;
 
     --nav-background-color: #157cd5ff;
-    --nav-link-color:var(--secondary-color);
-    --nav-hovor-link-color:var(--accent2-color);
-    --nav-hover-background-color:var(--accent3-color);
+    --nav-link-color: #b6d6ccff;
+    --nav-hovor-link-color: #e7a977ff;
+    --nav-hover-background-color: #01161eff;
+
+    
 
 
 }
