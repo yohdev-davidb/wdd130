@@ -32,3 +32,29 @@ header {
     background-color: var(--accent1-color);
 }
 
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited {
+    color:var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hovor-link-color);
+    background-color: var(--nav-hover-background-color);
+}
