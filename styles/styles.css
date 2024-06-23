@@ -37,11 +37,11 @@ aside {
     border-color: #eee;
     color: #3c00ff;
     text-align: center;
-    position: relative; 
+    position: auto; 
 }
 
 aside h2 {
-    position: absolute; 
+    position: auto; 
 }
 
 aside img {
