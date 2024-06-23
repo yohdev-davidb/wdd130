@@ -16,7 +16,7 @@ body {
     --heading-font: 'Light 300', Roboto;
     --paragraph-font: 'Regular  400', Roboto;
 
-    --nav-background-color:var(--primary-color);
+    --nav-background-color: #157cd5ff;
     --nav-link-color:var(--secondary-color);
     --nav-hovor-link-color:var(--accent2-color);
     --nav-hover-background-color:var(--accent3-color);
