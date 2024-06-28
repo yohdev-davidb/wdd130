@@ -1,4 +1,10 @@
 
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+ }
+
 nav { 
     background-color: steelblue;
     padding: 10px;
@@ -38,11 +44,6 @@ nav {
     aside {
       
       width: 20rem;
-      margin: 1rem;
-      border: 1px solid rgba(0,0,0,0.2); 
-      padding: 1rem;
-      border-color: #eee;
-      color: #3c00ff;
       text-align: center;
 
     }
@@ -70,4 +71,14 @@ footer {
 
 }
 
+/* Class Selector */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  background-color: aqua;
+  color:black
+
+}
 
