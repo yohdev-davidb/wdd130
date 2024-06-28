@@ -45,6 +45,17 @@ nav {
       
       width: 20rem;
       text-align: center;
+      position: relative;
+
+    }
+
+    aside h2 {
+
+    position: absolute;
+    right: 89px;
+    top: 27px;
+    color: yellow;
+
 
     }
 
@@ -71,6 +82,11 @@ footer {
 
 }
 
+main img {
+  float: right;
+  margin-left: 20px;
+}
+
 /* Class Selector */
 
 .box {
@@ -81,4 +97,5 @@ footer {
   color:black
 
 }
+
 
