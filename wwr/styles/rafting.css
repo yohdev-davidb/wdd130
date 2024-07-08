@@ -9,7 +9,7 @@
 :root {
     --primary-color: #157cd5ff;
     --secondary-color: #b6d6ccff;
-    --accent1-color: #6f5e53ff;
+    --accent1-color: rgb(94, 94, 111);
     --accent2-color: #01161eff;
     --accent3-color: #e7a977ff;
 
@@ -47,6 +47,8 @@ header nav ul li a {
     text-decoration: none;
     padding: 10px;
     margin: 10px;
+    font-size: larger;
+    font-weight: 700;
     border-radius: 5px;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -96,6 +98,7 @@ header img {
     top: 20px;
     left: 20px;
     font-size: 3rem;
+    
 }
 
 .hero article {
@@ -103,6 +106,13 @@ header img {
     left: 20px;
     right: 20px;
     max-width: 300px;
+    
+}
+
+section h2 {
+    color: var(--accent1-color);
+    text-align: center;
+    font-size: 2rem;
 }
 
 .hero article img {
