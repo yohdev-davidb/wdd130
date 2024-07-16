@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/about.css">
-    <title>BrookeBound Rapids</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Contact Us - BrookeBound Rapids</title>
 </head>
 <body>
     <header>
@@ -20,26 +20,71 @@
     </header>
     <main> 
         <section class="hero">
-            <img src="images/lake.jpg" alt="Image of a lake" class="hero-background">
+            <img src="images/lake.jpg" alt="Scenic river view" class="hero-background">
             <div class="hero-content">
-                <h1>BrookeBound Rapids</h1>
-                <article>
-                    <p>At BrookeBound Rapids, our mission is to deliver safe, exciting, and eco-friendly rafting experiences that bring families together. We are committed to the highest standards of safety, exceptional customer service, and environmental stewardship, ensuring every adventure is both thrilling and sustainable.</p>
-                    <img src="images/happy_rafting_employee.jpg" alt="Image of happy rafter holding oar above her head">
-                </article>
+                <h1>Contact Us</h1>
             </div>
         </section>
-       <section class="history">
-            <h2>History</h2>
-            <p>Riverbond Rafting was founded in 2005 by outdoor enthusiasts and married couple, Sarah and Jake Brooke, inspired by their love for the rivers of Utah and a passion for sharing white water rafting adventures. Starting with a single raft, they aimed to provide safe, family-friendly experiences. By 2011, the company had expanded its fleet, hired experienced guides, and introduced popular packages for family reunions and corporate retreats. In 2016, they committed to environmental sustainability with eco-friendly practices and partnerships with local conservation organizations. Today, Riverbond Rafting is a leader in family-oriented rafting, known for its exceptional service, safety, and commitment to preserving natural waterways. Looking ahead, they plan to expand offerings with multi-day excursions and educational programs.</p>
-       </section>
-       <section class="adventure"> 
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/list_img_1.jpg" alt="people rafting on a river">
-            <img src="images/list_img_2.jpg" alt="People rafting on a river having fun">
-            <img src="images/list_img_3.jpg" alt="people having fun rafting">
-            <img src="images/list_img_4.jpg" alt="these people sure love rafting">
-            <img src="images/list_img_5.jpg" alt="waterfall rafting people having fun">
+        
+        <section class="team-members">
+            <h2>Our Team Members</h2>
+            <div class="employee-profiles">
+                <div class="employee">
+                    <img src="images/pexels-jaime-reimer-1376930-9899960.jpg" alt="Jaime Reimer">
+                    <h3>Jaime Reimer</h3>
+                    <p>Head Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/pexels-ollivves-1047051.jpg" alt="Oliver Ves">
+                    <h3>Oliver Ves</h3>
+                    <p>Customer Service Representative</p>
+                </div>
+                <div class="employee">
+                    <img src="images/pexels-paige-deasley-115813531-9789981.jpg" alt="Paige Brown">
+                    <h3>Paige Brown</h3>
+                    <p>Trip Planner</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="radio-group">
+                    <p>Purpose of Message:</p><br>
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="checkbox-option">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <div>
+                    <button type="submit" class="submit-button">Send Your Message</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="footer">
@@ -54,6 +99,8 @@
             <a href="https://instagram.com">
                 <img src="images/6929237_instagram_icon.png" alt="Instagram Logo">
             </a> 
+
+            <a href="https://app.moqups.com/UW7idUe8msw2L3ymeCAc5XtwzqSwpnSG/view/page/ad64222d5" alt="Wireframe of Website">Wireframe</a>
         </nav>
     </footer>
 </body>
