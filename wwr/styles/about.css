@@ -1,3 +1,19 @@
+:root {
+    --primary-color: #157cd5ff;
+    --secondary-color: #b6d6ccff;
+    --accent1-color: rgb(94, 94, 111);
+    --accent2-color: #01161eff;
+    --accent3-color: #e7a977ff;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #157cd5ff;
+    --nav-link-color: #b6d6ccff;
+    --nav-hover-link-color: #e7a977ff;
+    --nav-hover-background-color: #01161eff;
+}
+
 body {
     font-family: Arial, sans-serif;
     max-width: 1720px;
