@@ -21,14 +21,35 @@ header img {
     width: 100px; 
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
-    
 }
 
 nav ul li {
     margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #01161eff;
+    color: #e7a977ff;
 }
 
 .hero {
