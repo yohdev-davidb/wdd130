@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #92c4e3;
+    background-color: rgb(94, 94, 111);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +87,7 @@ nav ul li {
 }
 
 footer {
-    background-color: #92c4e3;
+    background-color: rgb(94, 94, 111);
     padding: 1rem;
     text-align: center;
 }
