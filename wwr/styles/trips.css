@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0; 
@@ -7,30 +7,32 @@
 }
 
 :root {
-    --primary-color: #157cd5ff;
-    --secondary-color: #b6d6ccff;
+    --primary-color: #157cd5;
+    --secondary-color: #b6d6cc;
     --accent1-color: rgb(94, 94, 111);
-    --accent2-color: #01161eff;
-    --accent3-color: #e7a977ff;
+    --accent2-color: #01161e;
+    --accent3-color: #e7a977;
 
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color: #157cd5ff;
-    --nav-link-color: #b6d6ccff;
-    --nav-hover-link-color: #e7a977ff;
-    --nav-hover-background-color: #01161eff;
+    --nav-background-color: #157cd5;
+    --nav-link-color: #b6d6cc;
+    --nav-hover-link-color: #e7a977;
+    --nav-hover-background-color: #01161e;
 }
 
 body {
     font-family: var(--paragraph-font);
     max-width: 1500px;
     margin: 0 auto;
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin-bottom: 1rem;
 }
 
 header {
@@ -73,11 +75,10 @@ header nav ul li a:hover {
     color: var(--nav-hover-link-color);
 }
 
-
 .hero {
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -98,118 +99,85 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-
-.team-members {
-    max-width: 1200px;
-    margin: 2rem auto;
-    text-align: center;
-}
-
-.employee-profiles {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-}
-
-.employee {
-    width: 250px;
-    margin-bottom: 2rem;
-}
-
-.employee img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
     margin-bottom: 1rem;
 }
 
-.employee h3 {
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.special-offers {
+    background-color: var(--accent3-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro, .features, .trip-options {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.features li {
     margin-bottom: 0.5rem;
 }
 
-.employee p {
-    color: var(--accent1-color);
+.trip-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-
-.contact-form {
-    max-width: 600px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
+.trip-card {
+    width: 30%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.contact-form h2 {
-    text-align: center;
-    color: #322bc6;
-    margin-bottom: 1rem;
-}
-
-form div {
-    margin-bottom: 1rem;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+.trip-card img {
     width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-textarea {
-    height: 100px;
-}
-
-.radio-group {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
     margin-bottom: 1rem;
 }
 
-.radio-option, .checkbox-option {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
+.trip-card h3 {
+    color: var(--primary-color);
 }
 
-.radio-option input[type="radio"],
-.checkbox-option input[type="checkbox"] {
-    margin-right: 0.5rem;
-}
-
-.submit-button {
-    background-color: #4CAF50;
+.trip-card button {
+    background-color: var(--primary-color);
     color: white;
-    padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 4px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
 }
 
-.submit-button:hover {
-    background-color: #45a049;
+.trip-card button:hover {
+    background-color: var(--accent2-color);
 }
 
 footer {
@@ -223,6 +191,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .social-links {
@@ -233,4 +202,24 @@ footer {
 .social-links img {
     width: 30px;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trip-card {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
